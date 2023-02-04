@@ -502,15 +502,7 @@ button.collapse:hover, button.collapse.active{
 	margin-right: 100px;
 	border-bottom: 2px solid #fff;
 }
-.lower-footer{
-	width: 100%;
-	height: ;
-	color: #fff;
-	font-size: 13px;
-	font-family: Roboto;
-	font-weight: 300;
-	background: #112220;
-}
+
 .lower-footer-content{
 	width: 90%;
 	margin: 0 auto;
