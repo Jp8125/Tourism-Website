@@ -1,7 +1,7 @@
 body, html{
 	margin: 0;
 	padding: 0;
-	font: 1em Roboto;
+	font: 1em 'Times New Roman', Times, serif;
 }
 header{
 	width: 100%;
@@ -14,7 +14,7 @@ header{
 nav{
 	width: 100%;
 	height: auto;
-	color: rgb(171, 191, 223);
+	color: rgb(44, 19, 189);
 	z-index: 999;
 }
 .upper_navbar{
@@ -115,20 +115,20 @@ nav{
 	text-transform: uppercase;
 	text-align: center;
 	height: 300px;
-	font-family: Roboto;
+	font-family: 'Times New Roman', Times, serif;
 	color: white;
 	top: 45%;
 	left: 17.8%;
 	transform: (50%, 50%)
 }
 #main-title{
-	font-family: Roboto;
+	font-family: 'Times New Roman', Times, serif;
 	font-weight: 100;
 	font-size: 60px;
 	text-shadow: 5px 5px 10px black;
 }
 #sub-title{
-	font-family: Nunito;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 25px;
 	letter-spacing: 3px;
 	word-spacing: 5px;
@@ -149,7 +149,7 @@ nav{
 	width: 480px;
 	border: none;
 	font-size: 18px;
-	font-family: Roboto;
+	font-family: 'Times New Roman', Times, serif;
 	font-weight: 700;
 	background: rgba(255,255,255, 0.6);
 }
@@ -231,7 +231,7 @@ nav{
 }
 .image-set .image-box .image-content .text h1{
 	color: #fff;
-	font-family: Nunito;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 50px;
 }
 .image-set .image-box:hover .image-content{
@@ -265,7 +265,7 @@ nav{
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
 }
 .attractions-topic h1{
-	font-family: Nunito;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 50px;
 	color: #fff;
 	text-align: center;
@@ -283,7 +283,7 @@ nav{
 }
 .sinharaja-content h3, .sri-padaya-content h3{
 	color: #fff;
-	font-family: Nunito;
+	font-family: 'Times New Roman', Times, serif;
 	letter-spacing: 1px;
 }
 .sinharaja-content, .sri-padaya-content{
@@ -295,7 +295,7 @@ nav{
 }
 .sinharaja-para p, .sri-padaya-para p{
 	font-size: 14px;
-	font-family: Nunito;
+	font-family: 'Times New Roman', Times, serif;
 	color: #999;
 }
 .sinharaja-para a, .sri-padaya-para a{
@@ -353,7 +353,7 @@ nav{
 	padding: 0;
 }
 #slider-title h1, #accommodation-title h1{
-	font-family: Roboto;
+	font-family: 'Times New Roman', Times, serif;
 	font-weight: 300;
 }
 #slider-title span, #accommodation-title span{
@@ -417,7 +417,7 @@ button.collapse{
 	width: 100%;
 	border: none;
 	outline: none;
-	font-family: Nunito;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 18px;
 	margin: 0;
 	padding: 10px 20px;
@@ -428,7 +428,7 @@ button.collapse{
 }
 button.collapse::after{
 	content: '\f067';
-	font-family: "fontawesome";
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 17px;
 	padding: 5px 20px 5px 0;
 	float: left;
@@ -461,7 +461,7 @@ button.collapse:hover, button.collapse.active{
 	padding: 20px 0;
 }
 .footer-refs-content-1 h5, .footer-refs-content-2 h5, .footer-refs-content-3 h5{
-	font-family: Roboto;
+	font-family: 'Times New Roman', Times, serif;
 	font-weight: 100;
 	font-size: 23px;
 	color: whitesmoke;
@@ -485,9 +485,6 @@ button.collapse:hover, button.collapse.active{
 	color: #42b3f4;
 	padding-left: 10px;
 }
-.footer-content{
-	display: flex;
-}
 .footer-refs-content-1{
 	width: 43%;
 }
@@ -497,12 +494,15 @@ button.collapse:hover, button.collapse.active{
 .footer-refs-content-3{
 	width: 24%;
 }
-.footer-refs-content-1 h5, .footer-refs-content-2 h5, .footer-refs-content-3 h5{
-	padding-bottom: 10px;
-	margin-right: 100px;
-	border-bottom: 2px solid #fff;
+.lower-footer{
+	width: 100%;
+	height: auto ;
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 300;
+	background: #112220;
 }
-
 .lower-footer-content{
 	width: 90%;
 	margin: 0 auto;
