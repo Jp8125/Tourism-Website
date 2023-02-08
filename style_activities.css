@@ -1,5 +1,5 @@
 *{
-	font: 1em Roboto;
+	font: medium;
 }
 header{
 	width: 100%;
@@ -36,7 +36,7 @@ h1 {
 	width: 100%;
 }
 .tabordion h1{
-	font-family: Roboto;
+	font-family: 'Times New Roman', Times, serif;
 	font-weight: 300;
 	font-size: 30px;
 	padding: 10px 0;

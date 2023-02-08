@@ -1,16 +1,16 @@
-var collapse1 = document.getElementById("button1");
-var collapse2 = document.getElementById("button2");
-var collapse3 = document.getElementById("button3");
-var collapse4 = document.getElementById("button4");
-var collapse5 = document.getElementById("button5");
-var collapse6 = document.getElementById("button6");
+let collapse1 = document.getElementById("button1");
+let collapse2 = document.getElementById("button2");
+let collapse3 = document.getElementById("button3");
+let collapse4 = document.getElementById("button4");
+let collapse5 = document.getElementById("button5");
+let collapse6 = document.getElementById("button6");
 
-var content1 = document.getElementById("content1");
-var content2 = document.getElementById("content2");
-var content3 = document.getElementById("content3");
-var content4 = document.getElementById("content4");
-var content5 = document.getElementById("content5");
-var content6 = document.getElementById("content6");
+let content1 = document.getElementById("content1");
+let content2 = document.getElementById("content2");
+let content3 = document.getElementById("content3");
+let content4 = document.getElementById("content4");
+let content5 = document.getElementById("content5");
+let content6 = document.getElementById("content6");
 
 collapse1.onclick = function(){
 	this.classList.toggle('active');
@@ -131,20 +131,3 @@ collapse6.onclick = function(){
 		content5.style.maxHeight = null;
 	}
 }
-
-/*var collapses = document.getElementsByClassName("collapse");
-
-for (var i = 0; i < collapses.length; i++) {
-	collapses[i].onclick = function () {
-
-		this.classList.toggle('active');
-
-		var content = this.nextElementSibling;
-
-		if (content.style.maxHeight) {
-			content.style.maxHeight = null;
-		} else {
-			content.style.maxHeight = content.scrollHeight + "px";
-		}
-	}
-}*/
